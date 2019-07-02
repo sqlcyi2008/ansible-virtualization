@@ -2,8 +2,8 @@
 
 - name: HDD | Clone HDD
   copy:
-    src: '/mnt/hgfs/KVM/cks-ubuntu16.04-x64-20190329.qcow2'
-    dest: '/var/lib/libvirt/images/vm-{{ vm_name }}.qcow2'
+    src: '{{vm_image_dir}}/cks-ubuntu16.04-x64-20190329.qcow2'
+    dest: '{{vm_image_dir}}/vm-{{ vm_name }}.qcow2'
 
 
 # - name: HDD | Load NBD module
