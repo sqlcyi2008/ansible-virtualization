@@ -11,7 +11,7 @@ vnc_password: "123456a?"
 
 # vm
 vm_num: 1  # uniq 0-15
-vm_name: k8s01
+vm_name: k8s02
 vm_hdd_size: 10G
 vm_memory: 2048
 vm_swap_size: 0

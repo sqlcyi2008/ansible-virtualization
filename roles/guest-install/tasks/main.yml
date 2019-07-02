@@ -7,7 +7,7 @@
   tags: hdd
 
 
-- include: create_hdd.yml
+- include: clone_hdd.yml
   tags: hdd
   when: hdd_file.stat.exists == False
 
