@@ -10,10 +10,10 @@
 
 - name: VM | autostart vm
   virt: 
-    command: autostart
+    state: running 
     name: '{{ vm_name}}'
+    autostart: yes
     uri: 'qemu:///system'
-
 
 - name: VM | start vm
   virt: 
