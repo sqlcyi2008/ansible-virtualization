@@ -6,11 +6,13 @@
     state: present
     update_cache: yes
   with_items:
-    - libvirt-bin     # виртуальная оболочка API.
-    - qemu-kvm        # основной эмулятор, сама виртуализация (модуль для ядра)
-    - bridge-utils    # утилиты для конфигурирования Linux Ethernet мост.
+    - libvirt-bin    
+    - qemu-kvm    
+    - virt-manager
+    - python-libvirt 
+    - bridge-utils    
     - debootstrap
-    - python-libvirt  # Require for 'virt' ansible module
+
 
 
 - name: KVM | Add admin to kvm-group
