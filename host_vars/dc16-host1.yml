@@ -1,6 +1,6 @@
 # Host 1
 
-ansible_ssh_host: 5.9.45.106
+ansible_ssh_host: 127.0.0.1
 ansible_ssh_user: root
 
 
@@ -8,12 +8,12 @@ ansible_ssh_user: root
 vm_bridge: virbr0
 
 ipv4: true
-ipv4_address: 5.9.45.106/27
-ipv4_gateway: 5.9.45.97
-ipv4_dns: 213.133.100.100 213.133.98.98 213.133.99.99
+ipv4_address: 127.0.0.1/27
+ipv4_gateway: 127.0.0.1
+ipv4_dns: 114.114.114.114 8.8.8.8
 
 
-ipv6: true
+ipv6: false
 ipv6_address: 2a01:4f8:163:326a::2
 ipv6_mask: 64
 ipv6_gateway: fe80::1
