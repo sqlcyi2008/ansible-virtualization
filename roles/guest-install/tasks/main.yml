@@ -14,4 +14,9 @@
 
 - include: create_vm.yml
   tags: vm
+  when: not vm_update
 
+
+- include: update_vm.yml
+  tags: vm
+  when: vm_update

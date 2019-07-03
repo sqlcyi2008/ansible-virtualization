@@ -8,6 +8,8 @@ ansible_ssh_user: root
 # vnc (port: 5900)
 vnc_password: "123456a?"
 
+# 更改配置
+vm_update: true
 
 # vm
 vm_num: 1  # uniq 0-15
